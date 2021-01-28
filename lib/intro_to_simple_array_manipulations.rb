@@ -49,7 +49,7 @@ def using_shift_with_args(array,string)
   
   p brands_removed.size
 
-end
+
 
 
 
