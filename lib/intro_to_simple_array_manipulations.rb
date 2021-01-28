@@ -4,12 +4,12 @@ def using_push(array, string)
 
 def using_unshift(array, string)
   bouroughs_in_nyc = ["Brooklyn","Queens","Manhattan","Bronx"]
-  new_neighborhood = ("Staten Island")
-  bouroughs_in_nyc.unshift("new_neighborhood")
-  updated_array = bouroughs_in_nyc.unshift("new_neighborhood")
+  @new_neighborhood = ("Staten Island")
+  bouroughs_in_nyc.unshift("@new_neighborhood")
+  @updated_array = bouroughs_in_nyc.unshift("@new_neighborhood")
   
-  p updated_array[0]
-  p updated_array.size
+  p @updated_array[0]
+  p @updated_array.size
 end
   
 def using_pop(array, string)
