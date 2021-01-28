@@ -39,14 +39,16 @@ def using_shift(array,string)
   p im_so_over_this_city
   end
   p my_favorite_cities.size
-end
+  end
 end
 def using_shift_with_args(array,string)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
   brands_removed = ice_cream_brands.shift[0,1]
+  end
   p brands_removed
+  end
   p brands_removed.size
- 
+  end
 end
 
 
