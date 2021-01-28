@@ -28,17 +28,17 @@ def using_pop_with_args(array,string)
   
 end
 def using_shift(array,string)
-   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-    im_so_over_this_city = my_favorite_cities.shift
-    p im_so_over_this_city
-    p my_favorite_cities.length
+  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+  im_so_over_this_city = my_favorite_cities.shift
+  p im_so_over_this_city
+  p my_favorite_cities.length
  
 end
 def using_shift_with_args(array,string)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-    brands_removed = ice_cream_brands.shift[0,1]
-    p brands_removed
-    p brands_removed.length
+  brands_removed = ice_cream_brands.shift[0,1]
+  p brands_removed
+  p brands_removed.length
  
 end
 
