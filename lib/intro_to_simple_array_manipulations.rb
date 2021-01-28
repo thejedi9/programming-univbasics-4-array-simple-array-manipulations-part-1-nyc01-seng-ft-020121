@@ -7,8 +7,8 @@ def using_unshift(array, string)
   new_neighborhood = ("Staten Island")
   bouroughs_in_nyc.unshift("new_neighborhood") = updated_array
   
-  p bouroughs_in_nyc
-  p bouroughs_in_nyc.size
+  p updated_array[0]
+  p updated_array.size
 end
   
 def using_pop(array, string)
