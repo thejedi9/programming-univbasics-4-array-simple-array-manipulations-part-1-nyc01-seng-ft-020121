@@ -21,7 +21,7 @@ def using_pop(array, string)
   p deleted_string
   
   p deleted_string.size
-
+end
 
 def using_pop_with_args(array,string)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
