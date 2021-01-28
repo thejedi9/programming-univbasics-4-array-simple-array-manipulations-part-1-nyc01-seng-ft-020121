@@ -11,7 +11,7 @@ def using_unshift(array, string)
   p updated_array.size
 end
   
-def 
+def using_pop(array, string)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   deleted_string = continents.pop
   p deleted_string
