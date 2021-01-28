@@ -8,7 +8,7 @@ def using_unshift(array, string)
   bouroughs_in_nyc.unshift("new_neighborhood")
   updated_array = bouroughs_in_nyc.unshift("new_neighborhood")
   end
-  p updated_array[0]
+  p updated_array
   
   p updated_array.size
 
