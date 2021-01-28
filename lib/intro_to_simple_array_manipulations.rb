@@ -44,7 +44,7 @@ end
 def using_shift_with_args(array,string)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
   brands_removed = ice_cream_brands.shift[0,1]
-  end
+  
   p brands_removed
   
   p brands_removed.size
