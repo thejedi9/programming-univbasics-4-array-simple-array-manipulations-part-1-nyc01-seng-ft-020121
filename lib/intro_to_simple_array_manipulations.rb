@@ -4,7 +4,7 @@ def using_push(array, string)
 
 def using_unshift(array, string)
   bouroughs_in_nyc = ["Brooklyn","Queens","Manhattan","Bronx"]
-  updated_array = bouroughs_in_nyc.unshift("Staten Island")
+  bouroughs_in_nyc.unshift("Staten Island")
   new_neighborhood = updated_array[0]
   p updated_array
   p updated_array.size
