@@ -30,7 +30,7 @@ def using_pop_with_args(array,string)
   p small_dogs
   
   p dog_breeds.size
- 
+end 
 
 def using_shift(array,string)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
