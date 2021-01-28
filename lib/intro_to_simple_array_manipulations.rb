@@ -11,7 +11,7 @@ def using_unshift(array, string)
   p updated_array[0]
   
   p updated_array.size
-  end
+
 end  
 def using_pop(array, string)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
@@ -21,7 +21,7 @@ def using_pop(array, string)
   p deleted_string
   
   p deleted_string.size
-  end
+
 end
 def using_pop_with_args(array,string)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
@@ -39,7 +39,7 @@ def using_shift(array,string)
   p im_so_over_this_city
   
   p my_favorite_cities.size
-  end
+
 end
 def using_shift_with_args(array,string)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
@@ -48,7 +48,7 @@ def using_shift_with_args(array,string)
   p brands_removed
   
   p brands_removed.size
-  end
+
 end
 
 
