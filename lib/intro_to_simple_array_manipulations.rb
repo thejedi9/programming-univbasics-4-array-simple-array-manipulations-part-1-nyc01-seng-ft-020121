@@ -9,7 +9,7 @@ def using_unshift(array, string)
   updated_array = bouroughs_in_nyc.unshift("new_neighborhood")
   end
   p updated_array[0]
-  end
+  
   p updated_array.size
   end
 end  
@@ -19,7 +19,7 @@ def using_pop(array, string)
   deleted_string = continents.pop
   end
   p deleted_string
-  end
+  
   p deleted_string.size
   end
 end
@@ -28,7 +28,7 @@ def using_pop_with_args(array,string)
   small_dogs = dog_breeds.pop[2,3]
   end
   p small_dogs
-  end
+  
   p dog_breeds.size
   end
 end
@@ -37,7 +37,7 @@ def using_shift(array,string)
   im_so_over_this_city = my_favorite_cities.shift
   end
   p im_so_over_this_city
-  end
+  
   p my_favorite_cities.size
   end
 end
@@ -46,7 +46,7 @@ def using_shift_with_args(array,string)
   brands_removed = ice_cream_brands.shift[0,1]
   end
   p brands_removed
-  end
+  
   p brands_removed.size
   end
 end
