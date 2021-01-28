@@ -17,23 +17,29 @@ def using_pop(array, string)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   continents.pop
   deleted_string = continents.pop
+  end
   p deleted_string
+  end
   p deleted_string.size
+  end
 end
-
 def using_pop_with_args(array,string)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   small_dogs = dog_breeds.pop[2,3]
+  end
   p small_dogs
+  end
   p dog_breeds.size
-  
+  end
 end
 def using_shift(array,string)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   im_so_over_this_city = my_favorite_cities.shift
+  end
   p im_so_over_this_city
+  end
   p my_favorite_cities.size
- 
+end
 end
 def using_shift_with_args(array,string)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
