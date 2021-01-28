@@ -19,14 +19,15 @@ def using_pop(array, string)
   p deleted_string
   p deleted_string.size
 end
-def
+
+def using_pop_with_args(array,string)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   small_dogs = dog_breeds.pop[2,3]
   p small_dogs
   p dog_breeds.length
   
 end
-def
+def using_shift(array,string)
    my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
     im_so_over_this_city = my_favorite_cities.shift
     p im_so_over_this_city
