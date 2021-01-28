@@ -12,7 +12,7 @@ def using_unshift(array, string)
   
   p updated_array.size
 
-end  
+
 def using_pop(array, string)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   continents.pop
